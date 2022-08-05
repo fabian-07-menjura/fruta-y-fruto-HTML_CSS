@@ -1,0 +1,8 @@
+.quienes-somos__titulo {
+  color: #8d0606;
+  font-family: cursive;
+  font-family: pacifico, cursive; /* tipo de funte, sera pacifico o en caso de no tomar la funte, sera cursiva*/
+  font-size: 3.1875rem;
+  margin-bottom: 1rem; /*esta opcion nos agrega un espaciado por debajo*/
+  /* text-align: center; */
+}

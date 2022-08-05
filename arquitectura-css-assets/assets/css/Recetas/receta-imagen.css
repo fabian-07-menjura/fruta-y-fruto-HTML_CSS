@@ -1,0 +1,10 @@
+.receta__imagen {
+  height: 170px;
+}
+
+@media screen and (min-width: 0) {
+  /*pantalla telefono*/
+  .receta-imagen {
+    height: auto;
+  }
+}

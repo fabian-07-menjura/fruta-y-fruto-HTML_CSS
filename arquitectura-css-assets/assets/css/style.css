@@ -1,0 +1,33 @@
+.cabecera {
+  display: flex;
+  align-items: center;
+  background: lightgrey;
+  justify-content: space-between;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.menu-lista {
+  display: flex;
+}
+.menu-item {
+  list-style: none;
+}
+.menu-item:last-child {
+  margin-right: 0px;
+}
+
+.menu-link {
+  color: gray;
+  margin-right: 1.25rem;
+  text-decoration: none;
+  text-transform: lowercase;
+}
+.menu-link#activo {
+  color: black;
+  font-weight: bold;
+}
+
+.menu-link:hover {
+  color: black;
+  text-decoration: underline;
+}

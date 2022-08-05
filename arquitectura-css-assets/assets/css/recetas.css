@@ -1,0 +1,23 @@
+.recetas {
+  background: linear-gradient(#fefefe, #888888);
+
+  display: flex;
+  flex-wrap: wrap;
+  /* padding: 5rem 0 0 5rem; colocamos un espacio arriba y a la izquierda */
+}
+
+@media screen and (min-width: 0) {
+  .recetas {
+    padding: 5rem 0 0 1rem;
+  }
+}
+@media screen and (min-width: 768px) {
+  .recetas {
+    padding: 5rem 0 0 2.5rem;
+  }
+}
+@media screen and (min-width: 922px) {
+  .recetas {
+    padding: 5rem 0 0 5rem;
+  }
+}

@@ -1,0 +1,15 @@
+.pieDePagina {
+  background: linear-gradient(#fefefe, #888888);
+  color: #fdfdfd;
+  text-align: right;
+  padding: 1.5625rem;
+  text-transform: lowercase;
+}
+/* 
+amarillo	#FFC231
+azul	#408DFF
+rojo	#E0362B
+verde	#65FF75
+lila	#A454DB */
+
+

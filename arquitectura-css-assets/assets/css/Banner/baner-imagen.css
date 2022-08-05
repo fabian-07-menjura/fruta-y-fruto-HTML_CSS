@@ -1,0 +1,21 @@
+.banner-imagen {
+  background: url("../../img/banner.jpg") no-repeat center / cover;
+  /* height: calc(100vh - 72px); */
+  /* height: 500px; */
+  width: 100%;
+  /* background-position: center; */
+  /* background-repeat: no-repeat; */
+  /* background-size: cover; */
+}
+
+@media screen and (min-width: 0) {
+  .banner-imagen {
+    height: calc(100vh - 51px);
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .banner-imagen {
+    height: calc(100vh - 72px);
+  }
+}
